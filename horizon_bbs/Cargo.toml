@@ -1,0 +1,15 @@
+[package]
+name = "horizon-bbs"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Horizon BBS: guns, BBS-style actors and Alkaline policy core"
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/horizon_bbs/runtime.rs"
+
+[workspace]
+members = ["tools/audit"]
+resolver = "2"

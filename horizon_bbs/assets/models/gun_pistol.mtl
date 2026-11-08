@@ -1,0 +1,3 @@
+newmtl gun
+Kd 1 1 1
+map_Kd ../textures/gun_pistol.png
